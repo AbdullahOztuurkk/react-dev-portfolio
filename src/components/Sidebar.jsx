@@ -3,7 +3,7 @@ import SocialMedia from './SocialMedia/SocialMedia'
 
 const Sidebar = () => {
     return (
-        <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <div style={{ height:700}} className="max-w-sm place-content-around bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <img className="rounded-t-lg mx-auto mt-10" src="https://picsum.photos/300" alt="" />
             <div className="p-5">
                 <a href="#">
