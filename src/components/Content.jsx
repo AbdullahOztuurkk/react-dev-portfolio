@@ -12,6 +12,7 @@ const Content = () => {
             <BrowserRouter>
                 <Navbar />
                 <Routes>
+                    <Route exact path='/' element={<Experience />} />
                     <Route exact path="/contact" element={<Contact />} />
                     <Route exact path="/experiences" element={<Experience />} />
                     <Route exact path="/services" element={<Services />} />
