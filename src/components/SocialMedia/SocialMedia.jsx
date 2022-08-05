@@ -10,7 +10,7 @@ import SocialMediaItem from './SocialMediaItem'
 
 const SocialMedia = () => {
     return (
-        <div class="grid h-20 place-items-center grid-cols-4 rounded-md shadow-sm" role="group">
+        <div className="grid h-20 place-items-center grid-cols-4 rounded-md shadow-sm" role="group">
             <SocialMediaItem icon={<BsLinkedin color='blue' />} />
             <SocialMediaItem icon={<BsGithub color='black' />} />
             <SocialMediaItem icon={<BsTwitter color='blue' />} />
