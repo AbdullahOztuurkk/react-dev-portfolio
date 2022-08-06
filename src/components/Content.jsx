@@ -8,7 +8,7 @@ import Testimonials from './Testimonials/Testimonials'
 
 const Content = () => {
     return (
-        <div style={{ height: 700 }} className="bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <div style={{ height: 700 }} className="bg-white rounded-md border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <BrowserRouter>
                 <Navbar />
                 <Routes>
