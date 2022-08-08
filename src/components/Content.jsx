@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import About from './About/About'
 import Contact from './Contact'
 import Experience from './Experience/Experience'
 import Navbar from './Navbar/Navbar'
@@ -12,11 +13,12 @@ const Content = () => {
             <BrowserRouter>
                 <Navbar />
                 <Routes>
-                    <Route exact path='/' element={<Experience />} />
-                    <Route exact path="/contact" element={<Contact />} />
+                    <Route exact path='/' element={<About />} />
+                    <Route exact path='/about' element={<About />} />
                     <Route exact path="/experiences" element={<Experience />} />
                     <Route exact path="/services" element={<Services />} />
                     <Route exact path="/testimonials" element={<Testimonials />} />
+                    <Route exact path="/contact" element={<Contact />} />
                 </Routes>
             </BrowserRouter>
         </div>
