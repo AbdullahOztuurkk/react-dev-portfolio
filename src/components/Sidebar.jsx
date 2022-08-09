@@ -8,7 +8,7 @@ const Sidebar = () => {
 
     return (
         <div style={{ height: 700 }} className="max-w-sm place-content-around bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-            <img className="rounded-t-lg mx-auto mt-10" src="https://picsum.photos/300" alt="" />
+            <img className="rounded-t-lg mx-auto mt-10" width={300} height={300} src={ context.about.avatar === "" ? "https://picsum.photos/300" : context.about.avatar} alt="" />
             <div className="p-5">
                 <a href="#">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">{context.about.name}</h5>
