@@ -1,6 +1,16 @@
 {
+    "settings":{
+        "services_title":"Provided Services",
+        "services_description":"If you want to any service provided from me, contact with me via Email or Linkedin",
+        "skills_title":"Tech Stack",
+        "skills_description":"Used Technologies and Tools",
+        "testimonials_title":"Testimonials",
+        "testimonials_description":"Customers who benefits provided services by me"
+    },
     "about":
     {
+        "image":"./img/about.svg",
+        "image_description":"A image about programming",
         "name":"Abdullah Öztürk",
         "title":"Software Developer",
         "companyName":"Anadolu Kontrol Mühendislik",

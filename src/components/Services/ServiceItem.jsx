@@ -7,7 +7,7 @@ const ServiceItem = ({ name, description,icon}) => {
             <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
                 <div class="flex items-center mb-3">
                     <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-                    <GrServices  />
+                    {!icon ? <GrServices  /> : icon }
                     </div>
                     <h2 class="text-gray-900 text-lg title-font font-medium">{name}</h2>
                 </div>
