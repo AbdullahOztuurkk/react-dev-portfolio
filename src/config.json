@@ -1,0 +1,77 @@
+{
+    "about":
+    {
+        "name":"Abdullah Öztürk",
+        "title":"Software Developer",
+        "companyName":"Anadolu Kontrol Mühendislik",
+        "location":"Sivas",
+        "header":"About Me",
+        "greetings":"Hello, I am Abdullah Öztürk and I am software developer. I'm interested with .net technologies for a few years. In this year, i'm started to learning reactjs. Finally i created this project. You can customize with config.json below src folder. You can thank me later!"
+    },
+    "socialMedia":
+    {
+        "linkedin":"https://linkedin.com/in/abdullah-ozturk/",
+        "medium":"https://medium.com/@Abdullahozturkk",
+        "github":"https://github.com/abdullahoztuurkk",
+        "email":"oabdullahozturk@yandex.com",
+        "twitter":"https://twitter.com/abdullahoztuurk"
+    },
+    "experiences":
+    [
+        {
+            "companyName":"Anadolu Kontrol Mühendislik",
+            "title":"Software Developer",
+            "description":"test",
+            "date":"01.08.2022 - Present",
+            "imageLink":"",
+            "link":""
+        },
+        {
+            "companyName":"Inncrea Yazılım Bilişim San. Tic. Ltd. Şti.",
+            "title":"Internship",
+            "description":"test",
+            "date":"August 2022 - Sep 2021",
+            "imageLink":"",
+            "link":""
+        },
+        {
+            "companyName":"IBM Serii Information Technologies",
+            "title":"Logictics Support Personnel",
+            "description":"test",
+            "date":"June 2016 - July 2016",
+            "imageLink":"",
+            "link":""
+        }
+    ],
+    "services":
+    [
+        {
+            "name":"Backend Development",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue magna, hendrerit eu convallis rutrum, ullamcorper in massa."
+        },
+        {
+            "name":"Frontend Development",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue magna, hendrerit eu convallis rutrum, ullamcorper in massa."
+        },
+        {
+            "name":"Desktop Management",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue magna, hendrerit eu convallis rutrum, ullamcorper in massa."
+        }
+    ],
+    "testimonials":
+    [
+        {
+            "name":"Abdullah Öztürk",
+            "title":"Software Developer",
+            "content":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, accusantium commodi.",
+            "imageLink":""
+        },
+        {
+            "name":"John Doe",
+            "title":"Software Development Lead",
+            "content":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, accusantium commodi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, accusantium commodi.",
+            "imageLink":""
+        }
+    ],
+    "skills":[".Net Core","React","CQRS","Unit Test","EF Core","Docker","Dapper","Onion Architecture","HTML","CSS","JS","Typescript"]
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 import ServiceItem from './ServiceItem'
 
-const Services = () => {
+const Services = ({ value }) => {
   return (
     <section class="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto">
@@ -13,9 +13,9 @@ const Services = () => {
           </div>
         </div>
         <div class="flex flex-wrap -m-4">
-          <ServiceItem name="Backend Development" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue magna, hendrerit eu convallis rutrum, ullamcorper in massa." />
-          <ServiceItem name="Frontend Development" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue magna, hendrerit eu convallis rutrum, ullamcorper in massa." />
-          <ServiceItem name="Desktop Development" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue magna, hendrerit eu convallis rutrum, ullamcorper in massa." />
+          {value.map((service) =>
+            <ServiceItem name={service.name} description={service.description} />
+          )}
         </div>
       </div>
     </section>

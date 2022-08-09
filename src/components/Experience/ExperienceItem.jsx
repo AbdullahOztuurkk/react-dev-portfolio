@@ -4,7 +4,7 @@ const ExperienceItem = ({ companyName, date, description, title, imageLink, link
   return (
     <div class="flex items-center lg:w-full mx-auto pb-5 pt-5 mb-5 sm:flex-row flex-col">
       <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full text-red-500 flex-shrink-0">
-        <img src={imageLink == null ? "/logo512.png" : imageLink} width={150} height={150} />
+        <img src={imageLink == "" ? "/img/company.png" : imageLink} width={150} height={150} />
       </div>
       <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
         <h2 class="text-gray-900 text-lg title-font font-medium mb-1">{title}</h2>
