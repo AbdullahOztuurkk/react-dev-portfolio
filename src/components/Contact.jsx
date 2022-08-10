@@ -4,7 +4,7 @@ import ConfigContext from "../context/ConfigContext"
 const Contact = () => {
   const context = useContext(ConfigContext)
 
-  const [name, setName] = useState("dkashda")
+  const [name, setName] = useState("")
   const [email, setEmail] = useState("")
   const [message, setMessage] = useState("")
 
