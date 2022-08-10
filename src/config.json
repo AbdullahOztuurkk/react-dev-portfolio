@@ -5,7 +5,9 @@
         "skills_title":"Tech Stack",
         "skills_description":"Used Technologies and Tools",
         "testimonials_title":"Testimonials",
-        "testimonials_description":"Customers who benefits provided services by me"
+        "testimonials_description":"Customers who benefits provided services by me",
+        "contact_title":"Contact With Me",
+        "contact_description":"You can ask me via below form for any request, question or something else."
     },
     "about":
     {
